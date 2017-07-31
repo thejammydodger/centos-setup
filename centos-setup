@@ -1,3 +1,10 @@
 #!/bin/bash
+echo "Will install the following:"
+echo "epel-release, htop, iotop, wget, nano"
+echo "Then updates whole system and reboots"
+echo "Make sure to run as root"
+sleep 12s
 yum install -y epel-release
 yum install -y htop iotop wget nano
+yum update
+reboot
