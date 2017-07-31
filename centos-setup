@@ -6,5 +6,5 @@ echo "Make sure to run as root"
 sleep 12s
 yum install -y epel-release
 yum install -y htop iotop wget nano
-yum update
+yum update -y
 reboot
